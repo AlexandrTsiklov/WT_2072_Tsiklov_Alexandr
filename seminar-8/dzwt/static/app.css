@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding:50px 0; width: 600px; margin: 0 auto; background: rgb(255, 255, 255);
+}
+
+.container {
+    border: 1px solid silver; padding: 50px 70px; border-radius: 1rem; background: rgb(221, 221, 221);
+}
+
+.error {
+    color: red; display: none;
+}
+
+.display-block {
+    display: block;
+}

@@ -1,0 +1,61 @@
+/* body {
+    min-width: 1190px;
+} */
+
+.header {
+    color: rgb(0, 162, 232);
+}
+
+.header-list-ui:first-child {
+    color: rgb(18, 184, 255);
+}
+
+.contacts-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+.contacts-list-li {
+    border-radius: 1rem;
+    flex-basis: 300px;
+    background: black;
+}
+
+.contacts-list-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+#contacts-a-id {
+    background: rgb(106, 197, 236);
+}
+
+#about-me-a-id {
+    background: none;
+}
+
+.contacts-info {
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+
+.photo {
+    margin: 10px;
+    text-align: center;
+}
+
+.photo-img {
+    width: 340px;
+    height: 340px;
+}
+
+.message-subdcr {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 179, 255);
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

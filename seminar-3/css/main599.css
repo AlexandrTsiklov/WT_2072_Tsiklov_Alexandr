@@ -1,0 +1,91 @@
+html {
+    font-size: 12px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.container-width-80 {
+    width: 90%;
+}
+
+.contacts-info{
+    padding-left: 0;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-list-ui:not(:last-child) {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.header-list-ui:last-child {
+    font-size: 12px;
+}
+
+
+.header-list-ui:first-child {
+    font-size: 22px;
+    padding-left: 0;
+    margin-right: 0;
+}
+
+.nav-list{
+    font-size: 14px;
+}
+
+.profile-info-section{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-info-container {
+    padding: 10px 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.profile-info-content {
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 12px;
+}
+
+.form {
+    width: 240px;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 20px;    
+}
+
+.contacts-list {
+    flex-direction: column;
+    align-items:center;
+}
+
+.contacts-list-li {
+    margin-right: 0 !important;
+    width: 240px!important;
+}
+
+.photo {
+    padding: 0 !important;
+}
+
+.photo-img {
+    width: 230px;
+    height: 230px;
+    margin: 0;
+    padding: 0;
+}

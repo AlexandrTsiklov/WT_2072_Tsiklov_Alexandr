@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>    
+<body>
+    <header class="sidePadding10">
+        <div id="usernameDiv">
+            Alexandr Tsiklov
+        </div>
+        <div id="contactInfoDiv">
+            <div style="color: yellow;">adr.tsiklov@mail.ru</div>
+            <div>+7(977)301-01-31</div>
+        </div>
+    </header>
+    <div>
+        <nav id="navNav">
+            <li class="oneLiNav"><a class="oneANav" href="#">About me</a></li>
+            <li class="oneLiNav"><a class="oneANav" href="#">Resume</a></li>
+            <li class="oneLiNav"><a class="oneANav" href="#">Portfolio</a></li>
+            <li class="oneLiNav"><a class="oneANav" href="#">Contacts</a></li>
+        </nav>
+    </div>
+
+    <section class="infoContainerDiv">
+        <div id="photoAndInfoSection">
+            <div id="userPhotoDiv">
+                <img id="meImg" src="king.jpeg" alt="not-found">
+            </div>
+        </div>
+        <div id="profileDescrSection">
+            <div id="aboutMeContainer">
+                <h1 style="color: yellow; font-size: 1.4rem; font-weight: 500; text-align: left;">About me in brief:</h1>
+                <div id="someText">
+                    <li class="factLi">junior backend Java/Python developer</li>
+                    <li class="factLi">second year student of Dubna university</li>
+                    <li class="factLi">some text just to fill the string</li>
+                    <li class="factLi">noone even pay attention to it</li>
+                    <li class="factLi">price for my services starts from 500</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="beforeFooterDiv">
+    </div>
+    <section id="contactFormSection">
+
+        <div id="withFormDiv">
+            <div style="color: yellow; padding: 2rem; font-size:1.4rem; font-weight: 500;">
+                Wanna contact me? Fill this out
+            </div>
+            <form method="post" action="/#" id="contactFormForm">
+                <table style="width: 100%;">
+                    <tr>
+                        <td>
+                            <label for="phoneNumberInput">Your phone number: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="phoneNumberInput">
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nameInput">Your name: </label>
+                        </td>    
+                        <td>
+                            <input type="text" id="nameInput">
+                        </td>    
+                    </tr>    
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button id="submitData">Отправить</button>
+                        </tr>    
+                    </tr>      
+                </table>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="footerDiv">
+            Here should be some links to my social media or something else
+        </div>
+    </footer>
+</body>
+</html>

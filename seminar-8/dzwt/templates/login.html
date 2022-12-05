@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <hr>
+        <form onSubmit="return false" id="form2">
+            <div class="mb-3">
+                <label for="email-input" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email-input" name="email">
+                <div id="error-email" class="error">Incorrect format</div>
+            </div>
+            <div class="mb-3">
+                <label for="password1-input" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="password1-input" name="password">
+                <div id="error-password1" class="error">Passwords don't match</div>
+            </div>
+             <div style="display:flex; justify-content: space-between;">
+                <a href="registration" class="btn btn-primary display-block">Go to sign up</a>
+                <button type="submit" class="btn btn-primary display-block" onclick="sendForm()">Sign in</button>
+            </div>
+        </form>
+    </div>
+    <script src="{% static 'app-login.js' %}"></script>
+</body>
+</html>
