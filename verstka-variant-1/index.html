@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Verstka pro</title>
+</head>
+<body>
+    <section class="preview">
+        <nav class="preview__navigation">
+            <div class="preview__navigation-shoe"></div>
+            <div class="preview__navigation-item">Home</div>
+            <div class="preview__navigation-item">Products</div>
+            <div class="preview__navigation-bucket"></div>
+        </nav>
+        <h1>Our clothing, your comfort</h1>
+        <p class="preview__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid amet blanditiis cum cumque earum eius eligendi eum harum, inventore, maiores minus nostrum porro quaerat quidem quod quos tempora veritatis.</p>
+        <div class="preview__big-arrow-container">
+            <a href="#items-filter"><img src="./images/big-arrow.png" alt="big-arrow" class="big-arrow"></a>
+        </div>
+    </section>
+    <section class="items">
+        <div class="items__filter" id="items-filter">
+            <div class="items__filter-container">
+                <div class="items__filter-item items__filter-men">
+                    <label class="items__filter-label" for="check-men"></label>
+                    <input type="checkbox" name="men" id="check-men">
+                    men
+                </div>
+                <div class="items__filter-item items__filter-women">
+                    <label class="items__filter-label" for="check-women"></label>
+                    <input type="checkbox" name="women" id="check-women">
+                    women
+                </div>
+                <div class="items__filter-item items__filter-children">
+                    <label class="items__filter-label" for="check-children"></label>
+                    <input type="checkbox" name="children" id="check-children">
+                    children
+                </div>
+                <div class="items__filter-button">See all products</div>
+            </div>
+        </div>
+        <div class="items__container">
+            <div class="items__line" id="items-line">
+                MEN
+                <div class="items__hr"></div>
+                <div class="items__line-switcher">
+                    1 / 5 <br>
+                    <img class="arrow arrow-left" src="./images/arrow.svg" alt="arrow1">
+                    <img class="arrow arrow-right" src="./images/arrow.svg" alt="arrow2">
+                </div>
+            </div>
+            <div class="items__goods-line">
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            size
+                            <img src="./images/arrow-black.svg" class="arrow arrow-bottom" alt="arrow3">
+                        </div>
+                        <div class="items__goods-header-circles">
+                            <div class="items__goods-header-circle items__goods-header-circle_blue"></div>
+                            <div class="items__goods-header-circle items__goods-header-circle_yellow"></div>
+                            <div class="items__goods-header-circle items__goods-header-circle_gray"></div>
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img1"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">t-shirt</div>
+                        <div class="items__goods-footer-price">5,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            size
+                            <img src="./images/arrow-black.svg" class="arrow arrow-bottom" alt="arrow3">
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img2"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">pants forclaz</div>
+                        <div class="items__goods-footer-price">30,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            10litri
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img3"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">backpack</div>
+                        <div class="items__goods-footer-price">60,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="items__line">
+                <div class="items__hr items__hr_left"></div>
+                WOMEN
+                <div class="items__line-switcher items__line-switcher_left">
+                    1 / 5 <br>
+                    <img class="arrow arrow-left" src="./images/arrow.svg" alt="arrow1">
+                    <img class="arrow arrow-right" src="./images/arrow.svg" alt="arrow2">
+                </div>
+            </div>
+            <div class="items__goods-line">
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            size
+                            <img src="./images/arrow-black.svg" class="arrow arrow-bottom" alt="arrow3">
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img4"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">giacket</div>
+                        <div class="items__goods-footer-price">60,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            size
+                            <img src="./images/arrow-black.svg" class="arrow arrow-bottom" alt="arrow3">
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img5"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">tracking shoes</div>
+                        <div class="items__goods-footer-price">80,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+                <div class="items__goods-frame">
+                    <div class="items__goods-frame-header">
+                        <div class="items__goods-header-text">
+                            size
+                            <img src="./images/arrow-black.svg" class="arrow arrow-bottom" alt="arrow3">
+                        </div>
+                        <div class="items__goods-header-circles">
+                            <div class="items__goods-header-circle items__goods-header-circle_pink"></div>
+                            <div class="items__goods-header-circle items__goods-header-circle_white"></div>
+                        </div>
+                    </div>
+                    <div class="items__goods-frame-image" id="img6"></div>
+                    <div class="items__goods-frame-footer">
+                        <div class="items__goods-footer-name">t-shirt</div>
+                        <div class="items__goods-footer-price">20,00 <span class="dollar">$</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about__main-content">
+            <div class="about__frame">
+                <div class="about_frame-header">About us</div>
+                <div class="about__frame-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque rerum amet enim inventore nisi reprehenderit, ipsa neque, aspernatur, repellendus esse suscipit itaque voluptates sequi nostrum id mollitia tempora tenetur aut.
+                </div>
+            </div>
+        </div>
+        <div class="about__additional-content">
+            bird "E-commerce psd theme available"
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__left-block">
+            <div class="footer__left-block-header">trekking</div>
+            <div class="footer__left-block-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus officia repellat, sequi corrupti eaque consequatur nisi odio, obcaecati iste amet veritatis sapiente aliquid optio. Quis blanditiis incidunt eveniet beatae soluta?</div>
+        </div>
+        <div class="footer__right-block">
+            <div class="footer__right-block-header">credits|privacy|about|contacts</div>
+            <div class="footer__right-block-content">Design by gianluca cosetta</div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
